@@ -49,7 +49,7 @@ Or you can simply download the code from here https://github.com/islamhakim97/Ad
   - Headless Chrome Browser 
   - Retry Failed Tests
   - Run Using Maven
-  - Mock GeoLocation Test
+  - Mock GeoLocation Test (in another Project )
   - Assert That User vCan't sign in with Empty Fields.
   - Assert Login With InValid Data [Load Data From Excel Sheet].
   - Assert That User Can Login With valid Data . 
