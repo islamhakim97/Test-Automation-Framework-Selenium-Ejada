@@ -1,0 +1,3 @@
+com\OrangeHRM\testcases\ReportConfig.class
+com\OrangeHRM\testcases\LoginPageTest.class
+com\OrangeHRM\testcases\ResetPasswordTest.class
