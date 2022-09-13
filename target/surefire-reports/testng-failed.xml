@@ -6,14 +6,13 @@
     <listener class-name="automateRetryFailedTests.AnnotationTransformerTheSecondWay"/>
   </listeners>
   <test thread-count="5" verbose="0" name="End To End Test with Chrome browser(failed)">
-    <parameter name="Browser" value="chrome"/>
+    <parameter name="Browser" value="chrome-headless"/>
     <classes>
       <class name="com.OrangeHRM.testcases.LoginPageTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="testLogo"/>
-          <include name="PerformValidLoginTest"/>
         </methods>
       </class> <!-- com.OrangeHRM.testcases.LoginPageTest -->
     </classes>

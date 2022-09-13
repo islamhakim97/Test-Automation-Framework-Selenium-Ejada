@@ -31,7 +31,8 @@ public class TestUtils extends testBase {
 	public static void TakePicture(String name) throws IOException {
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// assign date and time to tcName
-		FileUtils.copyFile(srcFile, new File("D:\\Eclipse\\OrangeAllureReport\\TestReport" + name+ ".png"));
+		String projectPath=System.getProperty("user.dir");
+		FileUtils.copyFile(srcFile, new File(projectPath+"/TestReport/" + name+ ".png"));
 	}
 
 	/*// Start Take Video
@@ -92,7 +93,8 @@ public class TestUtils extends testBase {
 
 	public static Object[][] getDataFromExcel(String ExcelSheetename) throws IOException {
 		// "/Volumes/IslamHakim/Data Excel Sheets/LoginData.xlsx"
-		File file = new File("D:\\Web Automation Using Selenium\\ExcelDataSheets\\LoginData.xlsx");
+		String projectPath=System.getProperty("user.dir");
+		File file = new File(projectPath+"/Data/LoginData.xlsx");
 		FileInputStream fis2 = new FileInputStream(file);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis2);
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="139.228" tests="15" errors="0" skipped="6" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="141.325" tests="12" errors="0" skipped="3" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\Web Automation Using Selenium\apache-maven-3.8.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\ihakim\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\ihakim\AppData\Local\Android\Sdk\tools;C:\Users\ihakim\AppData\Local\Android\Sdk\tools\bin;D:\Web Automation Using Selenium\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;%allure%;C:\Users\ihakim\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\ihakim\AppData\Roaming\npm;C:\Users\ihakim\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\ihakim\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\ihakim\AppData\Local\Android\Sdk\tools;C:\Users\ihakim\AppData\Local\Android\Sdk\tools\bin;D:\Web Automation Using Selenium\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\allure-2.19.0\bin;C:\Users\ihakim\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\ihakim\AppData\Roaming\npm;C:\Users\ihakim\AppData\Local\GitHubDesktop\bin;."/>
     <property name="maven.conf" value="D:\Web Automation Using Selenium\apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,242 +64,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="PerformValidLoginTest" classname="com.OrangeHRM.testcases.LoginPageTest" time="0">
-    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}&#10;  (Session info: chrome=105.0.5195.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53a4b88e455f2dfdc7420ad47dfb7789&#10;*** Element info: {Using=link text, value=Dashboard}"/>
-    <system-out><![CDATA[I am in onStart method End To End Test with Chrome browser
-Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-I am in onTestStart method PerformValidLoginTeststart
-Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Value of the:[[ChromeDriver: chrome on WINDOWS (53a4b88e455f2dfdc7420ad47dfb7789)] -> name: username]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (53a4b88e455f2dfdc7420ad47dfb7789)] -> name: username]
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Value of the:[[ChromeDriver: chrome on WINDOWS (53a4b88e455f2dfdc7420ad47dfb7789)] -> name: password]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (53a4b88e455f2dfdc7420ad47dfb7789)] -> name: password]
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying to click on Element:[[ChromeDriver: chrome on WINDOWS (53a4b88e455f2dfdc7420ad47dfb7789)] -> xpath: //button[@type='submit']] 
-Clicked on:[[ChromeDriver: chrome on WINDOWS (53a4b88e455f2dfdc7420ad47dfb7789)] -> xpath: //button[@type='submit']]
-Trying To Find Element By : By.linkText: Dashboard
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53a4b88e455f2dfdc7420ad47dfb7789
-*** Element info: {Using=link text, value=Dashboard}
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53a4b88e455f2dfdc7420ad47dfb7789
-*** Element info: {Using=link text, value=Dashboard}
-I am in onTestSkipped method PerformValidLoginTestSkipped
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 46735
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 12, 2022 4:00:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="PerformValidLoginTest" classname="com.OrangeHRM.testcases.LoginPageTest" time="0">
-    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}&#10;  (Session info: chrome=105.0.5195.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7f91408eeb22ef5cdd16c399e0155f62&#10;*** Element info: {Using=link text, value=Dashboard}"/>
-    <system-out><![CDATA[Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-I am in onTestStart method PerformValidLoginTeststart
-Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Value of the:[[ChromeDriver: chrome on WINDOWS (7f91408eeb22ef5cdd16c399e0155f62)] -> name: username]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (7f91408eeb22ef5cdd16c399e0155f62)] -> name: username]
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Value of the:[[ChromeDriver: chrome on WINDOWS (7f91408eeb22ef5cdd16c399e0155f62)] -> name: password]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (7f91408eeb22ef5cdd16c399e0155f62)] -> name: password]
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying to click on Element:[[ChromeDriver: chrome on WINDOWS (7f91408eeb22ef5cdd16c399e0155f62)] -> xpath: //button[@type='submit']] 
-Clicked on:[[ChromeDriver: chrome on WINDOWS (7f91408eeb22ef5cdd16c399e0155f62)] -> xpath: //button[@type='submit']]
-Trying To Find Element By : By.linkText: Dashboard
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f91408eeb22ef5cdd16c399e0155f62
-*** Element info: {Using=link text, value=Dashboard}
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f91408eeb22ef5cdd16c399e0155f62
-*** Element info: {Using=link text, value=Dashboard}
-I am in onTestSkipped method PerformValidLoginTestSkipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 40471
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 12, 2022 4:01:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="PerformValidLoginTest" classname="com.OrangeHRM.testcases.LoginPageTest" time="0">
-    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}&#10;  (Session info: chrome=105.0.5195.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8767ae3167a8b5183918e9209df02044&#10;*** Element info: {Using=link text, value=Dashboard}"/>
-    <system-out><![CDATA[Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-I am in onTestStart method PerformValidLoginTeststart
-Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Value of the:[[ChromeDriver: chrome on WINDOWS (8767ae3167a8b5183918e9209df02044)] -> name: username]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (8767ae3167a8b5183918e9209df02044)] -> name: username]
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Value of the:[[ChromeDriver: chrome on WINDOWS (8767ae3167a8b5183918e9209df02044)] -> name: password]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (8767ae3167a8b5183918e9209df02044)] -> name: password]
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying to click on Element:[[ChromeDriver: chrome on WINDOWS (8767ae3167a8b5183918e9209df02044)] -> xpath: //button[@type='submit']] 
-Clicked on:[[ChromeDriver: chrome on WINDOWS (8767ae3167a8b5183918e9209df02044)] -> xpath: //button[@type='submit']]
-Trying To Find Element By : By.linkText: Dashboard
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8767ae3167a8b5183918e9209df02044
-*** Element info: {Using=link text, value=Dashboard}
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8767ae3167a8b5183918e9209df02044
-*** Element info: {Using=link text, value=Dashboard}
-I am in onTestSkipped method PerformValidLoginTestSkipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 12605
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 12, 2022 4:01:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="PerformValidLoginTest" classname="com.OrangeHRM.testcases.LoginPageTest" time="12.059">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}&#10;  (Session info: chrome=105.0.5195.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 24e330edebcaa807201070f4a5fbaba0&#10;*** Element info: {Using=link text, value=Dashboard}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 24e330edebcaa807201070f4a5fbaba0
-*** Element info: {Using=link text, value=Dashboard}
-	at com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest(LoginPageTest.java:96)
-</failure>
-    <system-out><![CDATA[Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-I am in onTestStart method PerformValidLoginTeststart
-Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
-Navigated To:https://opensource-demo.orangehrmlive.com/
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Trying To Find Element By : By.name: username
-Found Element By : By.name: username
-Value of the:[[ChromeDriver: chrome on WINDOWS (24e330edebcaa807201070f4a5fbaba0)] -> name: username]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (24e330edebcaa807201070f4a5fbaba0)] -> name: username]
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Trying To Find Element By : By.name: password
-Found Element By : By.name: password
-Value of the:[[ChromeDriver: chrome on WINDOWS (24e330edebcaa807201070f4a5fbaba0)] -> name: password]Before any changes made
-Element Value Changed To:[[ChromeDriver: chrome on WINDOWS (24e330edebcaa807201070f4a5fbaba0)] -> name: password]
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying To Find Element By : By.xpath: //button[@type='submit']
-Found Element By : By.xpath: //button[@type='submit']
-Trying to click on Element:[[ChromeDriver: chrome on WINDOWS (24e330edebcaa807201070f4a5fbaba0)] -> xpath: //button[@type='submit']] 
-Clicked on:[[ChromeDriver: chrome on WINDOWS (24e330edebcaa807201070f4a5fbaba0)] -> xpath: //button[@type='submit']]
-Trying To Find Element By : By.linkText: Dashboard
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 24e330edebcaa807201070f4a5fbaba0
-*** Element info: {Using=link text, value=Dashboard}
-Exception Occure: May be [Can not find Element] Or[ something else .. Ivestigate!] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Dashboard"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LPCAIQ0804', ip: '192.168.10.163', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 24e330edebcaa807201070f4a5fbaba0
-*** Element info: {Using=link text, value=Dashboard}
-Iam onTestFailure method PerformValidLoginTestfailed
-Screenshot captured for test case: PerformValidLoginTest
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 4093
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 12, 2022 4:01:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="1.989"/>
-  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="1.839"/>
-  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="2.467"/>
-  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="1.376"/>
+  <testcase name="PerformValidLoginTest" classname="com.OrangeHRM.testcases.LoginPageTest" time="6.215"/>
+  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="3.626"/>
+  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="2.699"/>
+  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="1.627"/>
+  <testcase name="CheckLoginwithInvalidPasswordOrmail" classname="com.OrangeHRM.testcases.LoginPageTest" time="1.12"/>
   <testcase name="testLogo" classname="com.OrangeHRM.testcases.LoginPageTest" time="0">
     <skipped message="Logo is not Found expected [false] but found [true]"/>
     <system-out><![CDATA[Before NavigatingTo:https://opensource-demo.orangehrmlive.com/
@@ -311,11 +80,11 @@ Trying To Find Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?
 Found Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?1660914792648']
 I am in onTestSkipped method testLogoSkipped
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 4438
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 37619
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 12, 2022 4:02:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 13, 2022 9:42:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -330,11 +99,11 @@ Trying To Find Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?
 Found Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?1660914792648']
 I am in onTestSkipped method testLogoSkipped
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 36115
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 47087
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 12, 2022 4:02:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 13, 2022 9:42:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -349,15 +118,15 @@ Trying To Find Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?
 Found Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?1660914792648']
 I am in onTestSkipped method testLogoSkipped
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 35200
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 35935
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 12, 2022 4:02:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 13, 2022 9:42:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testLogo" classname="com.OrangeHRM.testcases.LoginPageTest" time="0.928">
+  <testcase name="testLogo" classname="com.OrangeHRM.testcases.LoginPageTest" time="0.515">
     <failure message="Logo is not Found expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: Logo is not Found expected [false] but found [true]
 	at com.OrangeHRM.testcases.LoginPageTest.testLogo(LoginPageTest.java:126)
 </failure>
@@ -371,15 +140,15 @@ Found Element By : By.xpath: //img[@src='/web/images/ohrm_branding.png?166091479
 Iam onTestFailure method testLogofailed
 Screenshot captured for test case: testLogo
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 38888
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 36795
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 12, 2022 4:02:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 13, 2022 9:42:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testTitle" classname="com.OrangeHRM.testcases.LoginPageTest" time="0.02"/>
-  <testcase name="testURL" classname="com.OrangeHRM.testcases.LoginPageTest" time="0.044"/>
-  <testcase name="checkForgotPasswordFunctionality" classname="com.OrangeHRM.testcases.ResetPasswordTest" time="2.392"/>
+  <testcase name="testTitle" classname="com.OrangeHRM.testcases.LoginPageTest" time="0.006"/>
+  <testcase name="testURL" classname="com.OrangeHRM.testcases.LoginPageTest" time="0.007"/>
+  <testcase name="checkForgotPasswordFunctionality" classname="com.OrangeHRM.testcases.ResetPasswordTest" time="1.535"/>
 </testsuite>

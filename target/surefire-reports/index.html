@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods, 2 failed,  6 skipped,  7 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,  3 skipped,  8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Orange_HRM_Application_Test" class="show-methods failed suite-Orange_HRM_Application_Test"> (show)</a> <!-- show-methods failed suite-Orange_HRM_Application_Test -->
                     </span>
                     <div class="method-list-content failed suite-Orange_HRM_Application_Test">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="PerformValidLoginTest">PerformValidLoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
@@ -121,21 +116,6 @@
                       <a href="#" panel-name="suite-Orange_HRM_Application_Test" class="show-methods skipped suite-Orange_HRM_Application_Test"> (show)</a> <!-- show-methods skipped suite-Orange_HRM_Application_Test -->
                     </span>
                     <div class="method-list-content skipped suite-Orange_HRM_Application_Test">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="PerformValidLoginTest">PerformValidLoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="PerformValidLoginTest">PerformValidLoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="PerformValidLoginTest">PerformValidLoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
@@ -172,12 +152,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="CheckLoginwithInvalidPasswordOrmail(admin, admin)">CheckLoginwithInvalidPasswordOrmail(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="CheckLoginwithInvalidPasswordOrmail(admin, 123245)">CheckLoginwithInvalidPasswordOrmail(admin, 123245)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="CheckLoginwithInvalidPasswordOrmail(admin, admin)">CheckLoginwithInvalidPasswordOrmail(admin, admin)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Application_Test" title="com.OrangeHRM.testcases.LoginPageTest" hash-for-method="PerformValidLoginTest">PerformValidLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -215,55 +200,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="PerformValidLoginTest">
-                  </a> <!-- PerformValidLoginTest -->
-                  <span class="method-name">PerformValidLoginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 24e330edebcaa807201070f4a5fbaba0
-*** Element info: {Using=link text, value=Dashboard}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.executeScript(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
-	at com.OrangeHRM.pages.HomePage.DashboardisDisplayed(HomePage.java:31)
-	at com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest(LoginPageTest.java:96)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testLogo">
                   </a> <!-- testLogo -->
                   <span class="method-name">testLogo</span>
@@ -282,153 +218,6 @@ Session ID: 24e330edebcaa807201070f4a5fbaba0
               <span class="class-name">com.OrangeHRM.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="PerformValidLoginTest">
-                  </a> <!-- PerformValidLoginTest -->
-                  <span class="method-name">PerformValidLoginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8767ae3167a8b5183918e9209df02044
-*** Element info: {Using=link text, value=Dashboard}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.executeScript(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
-	at com.OrangeHRM.pages.HomePage.DashboardisDisplayed(HomePage.java:31)
-	at com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest(LoginPageTest.java:96)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PerformValidLoginTest">
-                  </a> <!-- PerformValidLoginTest -->
-                  <span class="method-name">PerformValidLoginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f91408eeb22ef5cdd16c399e0155f62
-*** Element info: {Using=link text, value=Dashboard}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.executeScript(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
-	at com.OrangeHRM.pages.HomePage.DashboardisDisplayed(HomePage.java:31)
-	at com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest(LoginPageTest.java:96)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="PerformValidLoginTest">
-                  </a> <!-- PerformValidLoginTest -->
-                  <span class="method-name">PerformValidLoginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Dashboard&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LPCAIQ0804&apos;, ip: &apos;192.168.10.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ihakim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 53a4b88e455f2dfdc7420ad47dfb7789
-*** Element info: {Using=link text, value=Dashboard}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy15.executeScript(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
-	at com.OrangeHRM.pages.HomePage.DashboardisDisplayed(HomePage.java:31)
-	at com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest(LoginPageTest.java:96)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testLogo">
@@ -491,6 +280,14 @@ Session ID: 53a4b88e455f2dfdc7420ad47dfb7789
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="CheckLoginwithInvalidPasswordOrmail(admin, admin)">
+                  </a> <!-- CheckLoginwithInvalidPasswordOrmail(admin, admin) -->
+                  <span class="method-name">CheckLoginwithInvalidPasswordOrmail</span>
+                  <span class="parameters">(admin, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="CheckLoginwithInvalidPasswordOrmail(admin, 123245)">
                   </a> <!-- CheckLoginwithInvalidPasswordOrmail(admin, 123245) -->
                   <span class="method-name">CheckLoginwithInvalidPasswordOrmail</span>
@@ -499,10 +296,9 @@ Session ID: 53a4b88e455f2dfdc7420ad47dfb7789
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckLoginwithInvalidPasswordOrmail(admin, admin)">
-                  </a> <!-- CheckLoginwithInvalidPasswordOrmail(admin, admin) -->
-                  <span class="method-name">CheckLoginwithInvalidPasswordOrmail</span>
-                  <span class="parameters">(admin, admin)</span>
+                  <a name="PerformValidLoginTest">
+                  </a> <!-- PerformValidLoginTest -->
+                  <span class="method-name">PerformValidLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -551,7 +347,7 @@ Session ID: 53a4b88e455f2dfdc7420ad47dfb7789
     &lt;listener class-name=&quot;automateRetryFailedTests.AnnotationTransformerTheSecondWay&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;End To End Test with Chrome browser&quot;&gt;
-    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome-headless&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.OrangeHRM.testcases.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.OrangeHRM.testcases.ResetPasswordTest&quot;/&gt;
@@ -630,72 +426,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'PerformValidLoginTest')
 data.setCell(0, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(0, 3, 11871);
+data.setCell(0, 3, 6213);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'PerformValidLoginTest')
+data.setCell(1, 1, 'CheckLoginwithInvalidPasswordOrmail')
 data.setCell(1, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(1, 3, 11758);
+data.setCell(1, 3, 3626);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'PerformValidLoginTest')
+data.setCell(2, 1, 'CheckLoginwithInvalidPasswordOrmail')
 data.setCell(2, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(2, 3, 11616);
+data.setCell(2, 3, 2698);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'PerformValidLoginTest')
+data.setCell(3, 1, 'testLogo')
 data.setCell(3, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(3, 3, 11600);
+data.setCell(3, 3, 2199);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'CheckLoginwithInvalidPasswordOrmail')
 data.setCell(4, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(4, 3, 2467);
+data.setCell(4, 3, 1626);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'checkForgotPasswordFunctionality')
 data.setCell(5, 2, 'com.OrangeHRM.testcases.ResetPasswordTest')
-data.setCell(5, 3, 2394);
+data.setCell(5, 3, 1535);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'CheckLoginwithInvalidPasswordOrmail')
 data.setCell(6, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(6, 3, 1989);
+data.setCell(6, 3, 1120);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'CheckLoginwithInvalidPasswordOrmail')
+data.setCell(7, 1, 'testLogo')
 data.setCell(7, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(7, 3, 1830);
+data.setCell(7, 3, 966);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'CheckLoginwithInvalidPasswordOrmail')
+data.setCell(8, 1, 'testLogo')
 data.setCell(8, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(8, 3, 1375);
+data.setCell(8, 3, 388);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testLogo')
 data.setCell(9, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(9, 3, 970);
+data.setCell(9, 3, 363);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testLogo')
+data.setCell(10, 1, 'testURL')
 data.setCell(10, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(10, 3, 647);
+data.setCell(10, 3, 6);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testLogo')
+data.setCell(11, 1, 'testTitle')
 data.setCell(11, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(11, 3, 633);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testLogo')
-data.setCell(12, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(12, 3, 481);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testURL')
-data.setCell(13, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(13, 3, 46);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testTitle')
-data.setCell(14, 2, 'com.OrangeHRM.testcases.LoginPageTest')
-data.setCell(14, 3, 14);
+data.setCell(11, 3, 6);
 window.suiteTableData['Orange_HRM_Application_Test']= { tableData: data, tableDiv: 'times-div-Orange_HRM_Application_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Orange_HRM_Application_Test">
               </div> <!-- times-div-Orange_HRM_Application_Test -->
             </div> <!-- times-div -->
@@ -728,186 +512,148 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">PerformValidLoginTest</span>
-                <span class="method-start">5156 ms</span>
+                <span class="method-start">8982 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">16793 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">17571 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">PerformValidLoginTest</span>
-                <span class="method-start">20993 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">32756 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">33532 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">PerformValidLoginTest</span>
-                <span class="method-start">36862 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">48465 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">49245 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">PerformValidLoginTest</span>
-                <span class="method-start">52514 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException...)</span>
-                <span class="method-start">64575 ms</span>
+                <span class="method-start">15204 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">66670 ms</span>
+                <span class="method-start">16571 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CheckLoginwithInvalidPasswordOrmail(admin, admin)</span>
-                <span class="method-start">70345 ms</span>
+                <span class="method-start">34066 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">72339 ms</span>
+                <span class="method-start">37695 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">73146 ms</span>
+                <span class="method-start">38360 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CheckLoginwithInvalidPasswordOrmail(admin1, admin12)</span>
-                <span class="method-start">76388 ms</span>
+                <span class="method-start">57129 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">78229 ms</span>
+                <span class="method-start">59829 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">79170 ms</span>
+                <span class="method-start">60505 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CheckLoginwithInvalidPasswordOrmail(admin, 123245)</span>
-                <span class="method-start">82647 ms</span>
+                <span class="method-start">70545 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">85118 ms</span>
+                <span class="method-start">72174 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">85863 ms</span>
+                <span class="method-start">72842 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CheckLoginwithInvalidPasswordOrmail(islam, 12314asd)</span>
-                <span class="method-start">90993 ms</span>
+                <span class="method-start">85715 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.Stri...)</span>
-                <span class="method-start">92371 ms</span>
+                <span class="method-start">86837 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome)</span>
-                <span class="method-start">93161 ms</span>
+                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome-headless)</span>
+                <span class="method-start">87476 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogo</span>
-                <span class="method-start">96723 ms</span>
+                <span class="method-start">91849 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), [TestResult name=testLogo status=SKIP ...)</span>
-                <span class="method-start">97359 ms</span>
+                <span class="method-start">92240 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome)</span>
-                <span class="method-start">98723 ms</span>
+                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome-headless)</span>
+                <span class="method-start">92864 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogo</span>
-                <span class="method-start">102482 ms</span>
+                <span class="method-start">100507 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), [TestResult name=testLogo status=SKIP ...)</span>
-                <span class="method-start">103457 ms</span>
+                <span class="method-start">101475 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome)</span>
-                <span class="method-start">105983 ms</span>
+                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome-headless)</span>
+                <span class="method-start">102089 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogo</span>
-                <span class="method-start">109915 ms</span>
+                <span class="method-start">115199 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), [TestResult name=testLogo status=SKIP ...)</span>
-                <span class="method-start">110568 ms</span>
+                <span class="method-start">117400 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome)</span>
-                <span class="method-start">111791 ms</span>
+                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), chrome-headless)</span>
+                <span class="method-start">118027 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogo</span>
-                <span class="method-start">116933 ms</span>
+                <span class="method-start">122349 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.testLogo(), [TestResult name=testLogo status=FAILU...)</span>
-                <span class="method-start">117865 ms</span>
+                <span class="method-start">122866 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testTitle(), chrome)</span>
-                <span class="method-start">118802 ms</span>
+                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testTitle(), chrome-headless)</span>
+                <span class="method-start">123491 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTitle</span>
-                <span class="method-start">122462 ms</span>
+                <span class="method-start">127783 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.testTitle(), [TestResult name=testTitle status=SUC...)</span>
-                <span class="method-start">122487 ms</span>
+                <span class="method-start">127791 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testURL(), chrome)</span>
-                <span class="method-start">124543 ms</span>
+                <span class="method-name">setup(public void com.OrangeHRM.testcases.LoginPageTest.testURL(), chrome-headless)</span>
+                <span class="method-start">128416 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testURL</span>
-                <span class="method-start">128347 ms</span>
+                <span class="method-start">132809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.LoginPageTest.testURL(), [TestResult name=testURL status=SUCCESS...)</span>
-                <span class="method-start">128399 ms</span>
+                <span class="method-start">132817 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.OrangeHRM.testcases.ResetPasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void com.OrangeHRM.testcases.ResetPasswordTest.checkForgotPasswordFunctionality() throws java...)</span>
-                <span class="method-start">130973 ms</span>
+                <span class="method-start">133437 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkForgotPasswordFunctionality</span>
-                <span class="method-start">134689 ms</span>
+                <span class="method-start">137825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown(public void com.OrangeHRM.testcases.ResetPasswordTest.checkForgotPasswordFunctionality() throws java...)</span>
-                <span class="method-start">137086 ms</span>
+                <span class="method-start">139363 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

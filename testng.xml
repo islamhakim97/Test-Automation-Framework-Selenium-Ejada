@@ -6,9 +6,9 @@
   <!--  another way to apply the retry FailedTests ability for all the test suite-->
   <listener class-name="automateRetryFailedTests.AnnotationTransformerTheSecondWay"></listener>
   </listeners>    
- <!--  Browser" value="chrome-headless;Browser" value="headless"#####################################[End To End Test with chrome browser]##########################-->
+ <!--  Browser" value="chrome-headless Browser" value="headless"#####################################[End To End Test with chrome browser]##########################-->
  <test thread-count="5" name="End To End Test with Chrome browser">
-   <parameter name="Browser" value="chrome"></parameter>
+   <parameter name="Browser" value="chrome-headless"></parameter>
   
      <classes>
         <class name="com.OrangeHRM.testcases.LoginPageTest"> 

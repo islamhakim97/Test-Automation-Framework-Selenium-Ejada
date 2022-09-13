@@ -123,7 +123,7 @@ public class LoginPageTest extends testBase {
 	public void testLogo() //2-Fail
 	{
 		boolean actualResult=loginPage.checkLogo();
-		Assert.assertEquals(actualResult, false, "Logo is not Found");//true for make it pass 
+		Assert.assertEquals(actualResult, true, "Logo is not Found");//true for make it pass 
 	}
 	@Test(priority=4,groups={"E2E"})
 	@Description("Verify URL OF LoginPage") // allure Report Notations 

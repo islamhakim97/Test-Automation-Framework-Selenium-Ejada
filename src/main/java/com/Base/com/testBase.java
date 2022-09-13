@@ -60,7 +60,8 @@ public class testBase {
 		} else if (browser.equalsIgnoreCase("headless")) {
 		    DesiredCapabilities caps=new DesiredCapabilities();
 		    caps.setJavascriptEnabled(true);
-		    caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,"D:\\Eclipse\\OrangeAllureReport\\drivers\\phantomjs.exe ");
+		    String projectPath=System.getProperty("user.dir");
+		    caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,projectPath+"/drivers/phantomjs.exe ");
 		    String[] PhantomjsArgs = {"--web-security=no","--ignore-ssl-errors=yes"};
 		    caps.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, PhantomjsArgs);
 			 driver = new PhantomJSDriver(caps); 
