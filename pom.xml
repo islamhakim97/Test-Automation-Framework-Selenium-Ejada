@@ -117,6 +117,12 @@
     <artifactId>allure-testng</artifactId>
     <version>2.19.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/com.applitools/eyes-selenium-java3 -->
+<dependency>
+    <groupId>com.applitools</groupId>
+    <artifactId>eyes-selenium-java3</artifactId>
+    <version>5.0.0</version>
+</dependency>
 
 
   </dependencies>

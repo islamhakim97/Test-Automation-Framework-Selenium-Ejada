@@ -2,10 +2,13 @@ package com.Base.com;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,6 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
@@ -41,8 +45,26 @@ public class testBase {
 
 	}
 
-	public WebDriver initialization(String browser) {
-		if (browser.equalsIgnoreCase("chrome")) {
+	public WebDriver initialization(String browser) throws IOException {
+		if(browser.equalsIgnoreCase("Grid-linux-firefox"))
+		{
+			String nodeURL="http://192.168.10.166:5555/wd/hub"; // changes every time
+			DesiredCapabilities cap=DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.LINUX);
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\ihakim\\HubDrivers\\chromedriver.exe");
+			driver= new RemoteWebDriver(new URL(nodeURL),cap);
+			
+		}else if(browser.equalsIgnoreCase("Grid-windows-chrome"))
+		{
+			String nodeURL=" http://192.168.10.163:5555/wd/hub";// changes every time
+			DesiredCapabilities cap=DesiredCapabilities.chrome();
+			cap.setBrowserName("chrome");
+			cap.setPlatform(Platform.WINDOWS);
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\ihakim\\HubDrivers\\chromedriver.exe");
+			driver= new RemoteWebDriver(new URL(nodeURL),cap);
+			
+		}else if (browser.equalsIgnoreCase("chrome")) {
 			 WebDriverManager.chromedriver().setup();
      		 driver = new ChromeDriver();
 			//System.setProperty("webdriver.chrome.driver","D:\\Web Automation Using Selenium\\BrowsersDrivers\\chromedriver.exe");

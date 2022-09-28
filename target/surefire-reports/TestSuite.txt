@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 141.325 s <<< FAILURE! - in TestSuite
-testLogo(com.OrangeHRM.testcases.LoginPageTest)  Time elapsed: 0.515 s  <<< FAILURE!
-java.lang.AssertionError: Logo is not Found expected [false] but found [true]
-	at com.OrangeHRM.testcases.LoginPageTest.testLogo(LoginPageTest.java:126)
-
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.599 s - in TestSuite

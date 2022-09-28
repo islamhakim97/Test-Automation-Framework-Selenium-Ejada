@@ -33,7 +33,7 @@ public class LoginPage extends testBase {
 	//@FindBy(linkText="Forgot your password?")
 	@FindBy(xpath="//p[text()='Forgot your password? ']")
 	WebElement ForgetPass;
-	@FindBy(xpath="//img[@src='/web/images/ohrm_branding.png?1660914792648']")
+	@FindBy(xpath="//img[@alt='company-branding']")
 	WebElement Logo;
 	
 	
